@@ -38,5 +38,13 @@ namespace FizzBuzzCSharp
             // Then
             Assert.AreEqual("Buzz", wordHandler.Handle(5), "Failure - when 5 should say Buzz");
         }
+
+        [Test]
+        public void WHEN_Fifteen_SHOULD_SayFizzBuzz()
+        {
+            // When
+            // Then
+            Assert.AreEqual("FizzBuzz", wordHandler.Handle(15), "Failure - when 15 should say FizzBuzz");
+        }
     }
 }
