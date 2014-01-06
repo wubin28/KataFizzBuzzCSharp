@@ -10,9 +10,8 @@ namespace FizzBuzzCSharp
         public void WHEN_One_SHOULD_SayOne()
         {
             // Given
-
+            WordHandler wordHandler = new WordHandler();
             // When
-            
             // Then
             Assert.AreEqual("1", wordHandler.handle(1), "Failure - when 1 should say 1");
         }
