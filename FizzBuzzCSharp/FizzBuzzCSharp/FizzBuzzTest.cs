@@ -7,8 +7,14 @@ namespace FizzBuzzCSharp
     public class FizzBuzzTest
     {
         [Test]
-        public void TestMethod1()
+        public void WHEN_One_SHOULD_SayOne()
         {
+            // Given
+
+            // When
+            
+            // Then
+            Assert.AreEqual("1", wordHandler.handle(1), "Failure - when 1 should say 1");
         }
     }
 }
