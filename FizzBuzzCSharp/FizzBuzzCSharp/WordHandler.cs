@@ -2,7 +2,7 @@
 {
     public class WordHandler
     {
-        public string handle(int number)
+        public string Handle(int number)
         {
             return "1";
         }

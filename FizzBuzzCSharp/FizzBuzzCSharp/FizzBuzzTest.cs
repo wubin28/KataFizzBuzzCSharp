@@ -13,7 +13,7 @@ namespace FizzBuzzCSharp
             WordHandler wordHandler = new WordHandler();
             // When
             // Then
-            Assert.AreEqual("1", wordHandler.handle(1), "Failure - when 1 should say 1");
+            Assert.AreEqual("1", wordHandler.Handle(1), "Failure - when 1 should say 1");
         }
     }
 }
