@@ -4,7 +4,7 @@ using NUnit.Framework;
 namespace FizzBuzzCSharp
 {
     [TestFixture]
-    public class UnitTest1
+    public class FizzBuzzTest
     {
         [Test]
         public void TestMethod1()
