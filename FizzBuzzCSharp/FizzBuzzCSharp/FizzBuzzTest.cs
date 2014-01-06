@@ -16,4 +16,8 @@ namespace FizzBuzzCSharp
             Assert.AreEqual("1", wordHandler.handle(1), "Failure - when 1 should say 1");
         }
     }
+
+    public class WordHandler
+    {
+    }
 }
