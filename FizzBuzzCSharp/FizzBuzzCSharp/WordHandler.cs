@@ -4,7 +4,11 @@
     {
         public string Handle(int number)
         {
-            return "1";
+            if (number%3 == 0)
+            {
+                return "Fizz";
+            }
+            return number.ToString();
         }
     }
 }
