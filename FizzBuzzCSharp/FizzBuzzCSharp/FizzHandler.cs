@@ -8,6 +8,11 @@
             {
                 return "Fizz";
             }
+            return Handle(number);
+        }
+
+        public string Handle(int number)
+        {
             if (number%5 == 0)
             {
                 return "Buzz";
