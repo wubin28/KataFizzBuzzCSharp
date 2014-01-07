@@ -8,6 +8,11 @@
             {
                 return "Buzz";
             }
+            return Handle(number);
+        }
+
+        public string Handle(int number)
+        {
             return number.ToString();
         }
     }
