@@ -2,7 +2,7 @@
 {
     public class BuzzHandler
     {
-        private string Handle(int number)
+        public string Handle(int number)
         {
             if (number%5 == 0)
             {

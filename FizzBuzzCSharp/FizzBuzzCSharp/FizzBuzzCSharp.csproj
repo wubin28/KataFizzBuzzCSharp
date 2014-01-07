@@ -50,6 +50,7 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
+    <Compile Include="BuzzHandler.cs" />
     <Compile Include="FizzBuzzTest.cs" />
     <Compile Include="FizzHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
