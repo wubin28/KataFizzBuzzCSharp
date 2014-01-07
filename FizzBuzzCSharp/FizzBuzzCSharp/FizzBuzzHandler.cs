@@ -2,8 +2,6 @@
 {
     public class FizzBuzzHandler : WordHandler
     {
-        private readonly WordHandler successor = new FizzHandler();
-
         public FizzBuzzHandler(WordHandler successor) : base(successor)
         {
         }
