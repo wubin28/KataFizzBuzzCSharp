@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="BuzzHandler.cs" />
     <Compile Include="CommonNumberHandler.cs" />
+    <Compile Include="FizzBuzzClient.cs" />
     <Compile Include="FizzBuzzTest.cs" />
     <Compile Include="FizzHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

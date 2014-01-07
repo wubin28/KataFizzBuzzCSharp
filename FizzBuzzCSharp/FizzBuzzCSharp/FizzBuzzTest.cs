@@ -7,17 +7,13 @@ namespace FizzBuzzCSharp
     public class FizzBuzzTest
     {
         private WordHandler wordHandler = null;
+        private readonly FizzBuzzClient _fizzBuzzClient = new FizzBuzzClient();
 
         [SetUp]
         public void Init()
         {
             // Given
-            wordHandler = GetWordHandler();
-        }
-
-        public FizzBuzzHandler GetWordHandler()
-        {
-            return new FizzBuzzHandler();
+            wordHandler = _fizzBuzzClient.GetWordHandler();
         }
 
         [Test]
