@@ -1,8 +1,8 @@
 ﻿namespace FizzBuzzCSharp
 {
-    public class BuzzHandler
+    public class BuzzHandler : WordHandler
     {
-        public string Handle(int number)
+        public override string Handle(int number)
         {
             if (number%5 == 0)
             {
