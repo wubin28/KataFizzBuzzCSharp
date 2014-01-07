@@ -12,4 +12,11 @@
             return fizzBuzzHandler;
         }
     }
+
+    public class WhizzHandler : WordHandler
+    {
+        public WhizzHandler(WordHandler successor) : base (successor)
+        {
+        }
+    }
 }
