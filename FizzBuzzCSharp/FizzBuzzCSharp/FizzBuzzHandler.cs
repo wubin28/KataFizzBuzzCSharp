@@ -2,7 +2,7 @@
 {
     public class FizzBuzzHandler : WordHandler
     {
-        private readonly FizzHandler _fizzHandler = new FizzHandler();
+        private readonly FizzHandler successor = new FizzHandler();
 
         public override string Handle(int number)
         {
@@ -10,7 +10,7 @@
             {
                 return "FizzBuzz";
             }
-            return _fizzHandler.Handle(number);
+            return successor.Handle(number);
         }
     }
 }
