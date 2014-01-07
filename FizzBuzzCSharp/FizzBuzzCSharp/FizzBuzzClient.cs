@@ -2,7 +2,7 @@
 {
     public class FizzBuzzClient
     {
-        public FizzBuzzHandler GetWordHandler()
+        public WordHandler GetWordHandler()
         {
             return new FizzBuzzHandler();
         }
