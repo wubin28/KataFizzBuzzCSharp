@@ -1,6 +1,6 @@
 ﻿namespace FizzBuzzCSharp
 {
-    public class WordHandler
+    public class FizzBuzzHandler
     {
         public string Handle(int number)
         {

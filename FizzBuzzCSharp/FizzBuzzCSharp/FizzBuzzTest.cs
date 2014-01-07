@@ -6,13 +6,13 @@ namespace FizzBuzzCSharp
     [TestFixture]
     public class FizzBuzzTest
     {
-        private WordHandler wordHandler = null;
+        private FizzBuzzHandler _fizzBuzzHandler = null;
 
         [SetUp]
         public void Init()
         {
             // Given
-            wordHandler = new WordHandler();
+            _fizzBuzzHandler = new FizzBuzzHandler();
         }
 
         [Test]
@@ -20,7 +20,7 @@ namespace FizzBuzzCSharp
         {
             // When
             // Then
-            Assert.AreEqual("1", wordHandler.Handle(1), "Failure - when 1 should say 1");
+            Assert.AreEqual("1", _fizzBuzzHandler.Handle(1), "Failure - when 1 should say 1");
         }
 
         [Test]
@@ -28,7 +28,7 @@ namespace FizzBuzzCSharp
         {
             // When
             // Then
-            Assert.AreEqual("Fizz", wordHandler.Handle(3), "Failure - when 3 should say Fizz");
+            Assert.AreEqual("Fizz", _fizzBuzzHandler.Handle(3), "Failure - when 3 should say Fizz");
         }
 
         [Test]
@@ -36,7 +36,7 @@ namespace FizzBuzzCSharp
         {
             // When
             // Then
-            Assert.AreEqual("Buzz", wordHandler.Handle(5), "Failure - when 5 should say Buzz");
+            Assert.AreEqual("Buzz", _fizzBuzzHandler.Handle(5), "Failure - when 5 should say Buzz");
         }
 
         [Test]
@@ -44,7 +44,7 @@ namespace FizzBuzzCSharp
         {
             // When
             // Then
-            Assert.AreEqual("FizzBuzz", wordHandler.Handle(15), "Failure - when 15 should say FizzBuzz");
+            Assert.AreEqual("FizzBuzz", _fizzBuzzHandler.Handle(15), "Failure - when 15 should say FizzBuzz");
         }
     }
 }
