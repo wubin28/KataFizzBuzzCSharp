@@ -12,7 +12,12 @@ namespace FizzBuzzCSharp
         public void Init()
         {
             // Given
-            wordHandler = new FizzBuzzHandler();
+            wordHandler = GetWordHandler();
+        }
+
+        public FizzBuzzHandler GetWordHandler()
+        {
+            return new FizzBuzzHandler();
         }
 
         [Test]
