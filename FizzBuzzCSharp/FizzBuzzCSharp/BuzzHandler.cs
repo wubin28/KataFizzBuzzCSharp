@@ -2,7 +2,9 @@
 {
     public class BuzzHandler : WordHandler
     {
-        private readonly WordHandler successor = new CommonNumberHandler();
+        public BuzzHandler(WordHandler successor) : base(successor)
+        {
+        }
 
         public override string Handle(int number)
         {
