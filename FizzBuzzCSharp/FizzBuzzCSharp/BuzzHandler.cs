@@ -2,7 +2,7 @@
 {
     public class BuzzHandler : WordHandler
     {
-        private readonly CommonNumberHandler _commonNumberHandler = new CommonNumberHandler();
+        private readonly CommonNumberHandler successor = new CommonNumberHandler();
 
         public override string Handle(int number)
         {
@@ -10,7 +10,7 @@
             {
                 return "Buzz";
             }
-            return _commonNumberHandler.Handle(number);
+            return successor.Handle(number);
         }
     }
 }
