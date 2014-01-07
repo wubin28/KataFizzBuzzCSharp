@@ -1,8 +1,8 @@
 ﻿namespace FizzBuzzCSharp
 {
-    public class CommonNumberHandler
+    public class CommonNumberHandler : WordHandler
     {
-        public string Handle(int number)
+        public override string Handle(int number)
         {
             return number.ToString();
         }
