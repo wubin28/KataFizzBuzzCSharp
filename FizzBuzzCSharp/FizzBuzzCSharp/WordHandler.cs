@@ -2,7 +2,7 @@
 {
     public abstract class WordHandler
     {
-        private WordHandler successor;
+        protected WordHandler successor;
 
         protected WordHandler(WordHandler successor)
         {
