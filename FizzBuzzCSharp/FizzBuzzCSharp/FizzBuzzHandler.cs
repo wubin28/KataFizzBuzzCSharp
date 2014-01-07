@@ -2,26 +2,15 @@
 {
     public class FizzBuzzHandler : WordHandler
     {
+        private readonly FizzHandler _fizzHandler = new FizzHandler();
+
         public override string Handle(int number)
         {
             if (number % 15 == 0)
             {
                 return "FizzBuzz";
             }
-            return Handle(number);
-        }
-
-        public string Handle(int number)
-        {
-            if (number%3 == 0)
-            {
-                return "Fizz";
-            }
-            if (number%5 == 0)
-            {
-                return "Buzz";
-            }
-            return number.ToString();
+            return _fizzHandler.Handle(number);
         }
     }
 }
