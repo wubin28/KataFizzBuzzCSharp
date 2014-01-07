@@ -6,7 +6,7 @@ namespace FizzBuzzCSharp
     [TestFixture]
     public class FizzBuzzTest
     {
-        private FizzBuzzHandler _fizzBuzzHandler = null;
+        private WordHandler _fizzBuzzHandler = null;
 
         [SetUp]
         public void Init()
