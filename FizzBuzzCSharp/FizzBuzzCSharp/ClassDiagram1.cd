@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FizzBuzzCSharp.BuzzHandler" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>BuzzHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FizzBuzzCSharp.CommonNumberHandler" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>CommonNumberHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FizzBuzzCSharp.FizzBuzzClient" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FizzBuzzClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FizzBuzzCSharp.FizzBuzzHandler" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>FizzBuzzHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FizzBuzzCSharp.FizzBuzzTest" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgQAEABAAACAAQAAAAAAAAAAAAABAAAACAAAAAAA=</HashCode>
+      <FileName>FizzBuzzTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FizzBuzzCSharp.FizzHandler" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>FizzHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FizzBuzzCSharp.WhizzHandler" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>WhizzHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FizzBuzzCSharp.WordHandler" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAEAAAAAAAA=</HashCode>
+      <FileName>WordHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei" Size="9" />
+</ClassDiagram>
